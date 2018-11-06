@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/trabajoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trabajo en casa"
+         />
+
+    <Switch
+        android:id="@+id/switchTrabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtTrabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ />
+
+    <TextView
+        android:id="@+id/aprobarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voy a aprobar"
+        />
+
+    <Switch
+        android:id="@+id/switchAprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ />
+
+    <TextView
+        android:id="@+id/txtAprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ />
+
+    <TextView
+        android:id="@+id/edadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi edad"
+ />
+
+    <EditText
+        android:id="@+id/editTxtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+/>
+
+    <TextView
+        android:id="@+id/txtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
